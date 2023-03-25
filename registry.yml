@@ -30,7 +30,7 @@ spec:
         - name: registry-nfs
           nfs:
             server: 192.168.136.130
-            path: /home/yossi/project/registry # dir for the data on worker_db
+            path: /home/yossi/project/registry 
             readOnly: false
 ---
 apiVersion: v1
@@ -44,5 +44,6 @@ spec:
     - name: http
       port: 5000
       targetPort: 5000
+  type: ClusterIP
   selector:
     app: registry
