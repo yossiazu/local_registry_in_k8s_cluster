@@ -4,8 +4,4 @@ The project offers several benefits, such as centralized management and control 
 The project is reliable thanks to Kubernetes, which ensures automatic repair and maintenance in case of any malfunction, ensuring that the project functions correctly.
 
 # Step by step tutorial
-*Before we can use an NFS volume in our Kubernetes deployment, we need to ensure that the server we want to use as the volume allows NFS.
-@
-$
-%
-&
+* Before we can use an NFS volume in our Kubernetes deployment, we need to ensure that the server we want to use as the volume allows NFS.
