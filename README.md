@@ -19,6 +19,7 @@ $ }
 Replace "cluster-ip:port" with the IP address and port number of your local registry, which you obtained in the previous step.
 5. Save and close the "daemon.json" file.
 6. The "insecure-registries" parameter in the file allows you to customize the behavior of the Docker daemon on the node and trust the local registry, which doesn't have a valid SSL certificate.
+
 (By following these steps, you should now have the Docker daemon configured to trust the local registry.)
 
 * Now that you have configured the Docker daemon to trust the local registry, you can use it to push, pull, and remove images:
